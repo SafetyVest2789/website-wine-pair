@@ -2480,33 +2480,6 @@ input, select, textarea {
 				text-align: center;
 				margin: 0 0 3em 0;
 			}
-
-		/* #footer .copyright {
-			text-align: center;
-			color: rgba(128, 128, 128, 0.75);
-			font-size: 0.8em;
-			cursor: default;
-		}
-
-			#footer .copyright a {
-				color: rgba(128, 128, 128, 0.75);
-			}
-
-				#footer .copyright a:hover {
-					color: rgba(212, 212, 212, 0.85);
-				} */
-	.bottom {
-		width:auto;
-		height: 420px;
-	}
-/*Database input box*/
-img {
-    max-height: 500px;
-}
-
-input {
-    width: 400px;
-}
 /* Carousel */
 
 	.carousel {

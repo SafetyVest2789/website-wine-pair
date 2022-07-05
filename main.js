@@ -24,7 +24,7 @@ $(document).ready(function () {
                         {
                             $("#food").append(`<li>${food}</li>`)
                         })
-                        $('img').attr('src',result.image)
+                        $('.bottom img').attr('src',result.image)
                 })
         }
     })
