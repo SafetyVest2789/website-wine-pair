@@ -267,6 +267,13 @@ input, select, textarea {
 			}
 
 		}
+/* 
+	.bottom {
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+	} */
 
 /* Row */
 
@@ -1810,6 +1817,10 @@ input, select, textarea {
 				width: auto;
 			}
 
+	.dataImage {
+		margin: 5% 10%;
+		
+	}
 /* List */
 
 	ul {
@@ -1830,6 +1841,10 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+	.bottom ul {
+		list-style: none;
+		padding-left: 1em;
+	}
 /* Actions */
 
 	ul.actions {

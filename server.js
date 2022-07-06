@@ -60,5 +60,5 @@ app.get("/get/:id", async (request, response) => {
 )
 
 app.listen(process.env.PORT || PORT, () => {
-    console.log(`Server is running.Please get em`)
+    console.log(`Server is running.Please get them`)
 })  
