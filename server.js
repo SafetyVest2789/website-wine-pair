@@ -5,7 +5,7 @@ const {MongoClient, ObjectId } = require('mongodb')
 const { response } = require('express')
 const { request } = require('http')
 require('dotenv').config()
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 
 let db,
     dbConnectionStr = process.env.DB_STRING,
