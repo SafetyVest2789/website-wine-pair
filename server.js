@@ -30,9 +30,9 @@ app.use(express.static('public'))
 //     response.sendFile(__dirname + "/index.html")
 // })
 
-app.get("/", (request, response) => {
-    response.sendFile("index.html", { root: "public" });
-});
+// app.get("/", (request, response) => {
+//     response.sendFile("index.html", { root: "public" });
+// });
 
 app.get("/search", async (request,response) => {
     try {
