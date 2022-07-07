@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended : true}))
 app.use(express.json())
 app.use(cors())
 app.set('view engine', 'ejs')
-app.use(express.static("index.html"))
+app.use(express.static('public'))
 
 
 // app.get("/", (request, response)=>{
