@@ -27,7 +27,7 @@ app.use(express.static("index.html"))
 
 
 app.get("/", (request, response)=>{
-    response.sendFile(__dirname + "/index.html")
+    response.sendFile(__dirname + "/index.html" + "/assets" + "/images")
 })
 
 // app.get("/", (request, response) => {
